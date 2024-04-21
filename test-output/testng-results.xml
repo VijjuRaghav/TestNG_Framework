@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Running in beforetest]]>
+    </line>
+    <line>
+      <![CDATA[Executing cbanking test]]>
+    </line>
+    <line>
+      <![CDATA[Executing ibanking test]]>
+    </line>
+    <line>
+      <![CDATA[Executing pbanking test]]>
+    </line>
+    <line>
+      <![CDATA[Running in before method]]>
+    </line>
+    <line>
+      <![CDATA[Executing leave test]]>
+    </line>
+    <line>
+      <![CDATA[Running in after method]]>
+    </line>
+    <line>
+      <![CDATA[Running in before method]]>
+    </line>
+    <line>
+      <![CDATA[Executing pim test]]>
+    </line>
+    <line>
+      <![CDATA[Running in after method]]>
+    </line>
+    <line>
+      <![CDATA[Running in before method]]>
+    </line>
+    <line>
+      <![CDATA[Executing admin test]]>
+    </line>
+    <line>
+      <![CDATA[Running in after method]]>
+    </line>
+    <line>
+      <![CDATA[Running in aftertest]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-05T19:18:21 IST" name="MrngBatch" finished-at="2024-04-05T19:18:40 IST" duration-ms="19754">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T19:18:21 IST" name="testReports" finished-at="2024-04-05T19:18:40 IST" duration-ms="19754">
+      <class name="april4.FirstTestNG">
+        <test-method is-config="true" signature="setup()[pri:0, instance:april4.FirstTestNG@63a12c68]" started-at="2024-04-05T19:18:21 IST" name="setup" finished-at="2024-04-05T19:18:27 IST" duration-ms="6263" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in beforetest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cbanking()[pri:0, instance:april4.FirstTestNG@63a12c68]" started-at="2024-04-05T19:18:27 IST" name="cbanking" finished-at="2024-04-05T19:18:27 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing cbanking test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cbanking -->
+        <test-method signature="ibanking()[pri:0, instance:april4.FirstTestNG@63a12c68]" started-at="2024-04-05T19:18:27 IST" name="ibanking" finished-at="2024-04-05T19:18:27 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing ibanking test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ibanking -->
+        <test-method signature="pbanking()[pri:0, instance:april4.FirstTestNG@63a12c68]" started-at="2024-04-05T19:18:27 IST" name="pbanking" finished-at="2024-04-05T19:18:28 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing pbanking test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pbanking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:april4.FirstTestNG@63a12c68]" started-at="2024-04-05T19:18:40 IST" name="tearDown" finished-at="2024-04-05T19:18:40 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in aftertest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- april4.FirstTestNG -->
+      <class name="april4.SecondTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:28 IST" name="setUp" finished-at="2024-04-05T19:18:31 IST" duration-ms="3371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="leave()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:31 IST" name="leave" finished-at="2024-04-05T19:18:32 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing leave test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- leave -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:32 IST" name="tearDown" finished-at="2024-04-05T19:18:32 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in after method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:32 IST" name="setUp" finished-at="2024-04-05T19:18:35 IST" duration-ms="3302" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pim()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:35 IST" name="pim" finished-at="2024-04-05T19:18:36 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing pim test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pim -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:36 IST" name="tearDown" finished-at="2024-04-05T19:18:36 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in after method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:36 IST" name="setUp" finished-at="2024-04-05T19:18:39 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin()[pri:2, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:39 IST" name="admin" finished-at="2024-04-05T19:18:40 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing admin test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- admin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:april4.SecondTestNG@67c33749]" started-at="2024-04-05T19:18:40 IST" name="tearDown" finished-at="2024-04-05T19:18:40 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running in after method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- april4.SecondTestNG -->
+    </test> <!-- testReports -->
+  </suite> <!-- MrngBatch -->
+</testng-results>
